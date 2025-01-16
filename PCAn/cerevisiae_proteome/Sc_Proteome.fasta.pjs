@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Sc_Proteome.fasta",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Saccharomyces cerevisiae proteome",
+  "number-of-letters": 3025619,
+  "number-of-sequences": 6716,
+  "last-updated": "2025-01-16T16:08:00",
+  "number-of-volumes": 1,
+  "bytes-total": 6041238,
+  "bytes-to-cache": 3086192,
+  "files": [
+    "Sc_Proteome.fasta.pdb",
+    "Sc_Proteome.fasta.phr",
+    "Sc_Proteome.fasta.pin",
+    "Sc_Proteome.fasta.pot",
+    "Sc_Proteome.fasta.psq",
+    "Sc_Proteome.fasta.ptf",
+    "Sc_Proteome.fasta.pto"
+  ]
+}
