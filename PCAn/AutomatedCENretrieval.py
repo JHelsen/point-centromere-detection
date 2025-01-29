@@ -312,6 +312,7 @@ with open(OutputFileName, 'a') as f:
     f.write(f"FIMO significance threshold for the CDEI motif search: 1E-{MotifsAndThresholds[Species][3]}\n")
     f.write(f"\nCDEIII motif used: {MotifsAndThresholds[Species][0]}\n")
     f.write(f"FIMO significance threshold for the CDEIII motif search: 1E-{MotifsAndThresholds[Species][2]}\n")
+    f.write("\nPlease cite:\nJ. Helsen, K. Ramachandran, G. Sherlock, G. Dey, Centromeres evolve progressively through selection at the kinetochore interface. bioRxiv [Preprint] (2025). https://doi.org/10.1101/2025.01.16.633479.")
     f.close()
 
 ###################################
