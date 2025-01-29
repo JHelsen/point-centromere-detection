@@ -1,0 +1,139 @@
+SpeciesIndex    Genus   NewSpeciesName  CDEIIImotif CDEImotif   CDEIIIthreshold CDEIthreshold   Works?  FalseNeg    FalsePos
+1   Kluyveromyces   Kluyveromyces nonfermentans Kluyveromyces   ZT  6   3   Yes 0   0
+2   Kluyveromyces   Kluyveromyces aestuarii Kluyveromyces   ZT  6   3   Yes 0   0
+3   Kluyveromyces   Kluyveromyces siamensis Kluyveromyces   ZT  6   3   Yes 0   0
+4   Kluyveromyces   Kluyveromyces wickerhamii   Kluyveromyces   ZT  6   3   Yes 0   0
+5   Kluyveromyces   Kluyveromyces starmeri  Kluyveromyces   ZT  6   3   Yes 0   0
+6   Kluyveromyces   Kluyveromyces sp. yHMH660   Kluyveromyces   ZT  6   3   Yes 0   0
+7   Kluyveromyces   Kluyveromyces marxianus Kluyveromyces   ZT  6   3   Yes 0   0
+8   Kluyveromyces   Kluyveromyces sp. PCH397    Kluyveromyces   ZT  6   3   Yes 0   0
+9   Kluyveromyces   Kluyveromyces dobzhanskii   Kluyveromyces   ZT  6   3   Yes 0   0
+10  Kluyveromyces   Kluyveromyces lactis    Kluyveromyces   ZT  6   3   Yes 0   0
+11  Eremothecium    Eremothecium coryli EreLach ZT  6   2   Yes 0   0
+12  Eremothecium    Eremothecium sinecaudum EreLach ZT  6   2   Yes 0   0
+13  Eremothecium    Eremothecium cymbalariae    EreLach ZT  6   2   Yes 0   0
+14  Eremothecium    Ashbya aceri    EreLach ZT  6   2   Yes 0   0
+15  Eremothecium    Eremothecium gossypii   EreLach ZT  6   2   Yes 0   0
+16  Lachancea   Lachancea kluyveri  Lachancea   Lachancea   5   2   Yes 0   0
+17  Lachancea   Lachancea cidri Lachancea   Lachancea   5   2   Yes 0   0
+18  Lachancea   Lachancea fermentati    Lachancea   Lachancea   5   2   Yes 0   0
+19  Lachancea   Lachancea mirantina Lachancea   Lachancea   5   2   Yes 0   0
+20  Lachancea   Lachancea waltii    Lachancea   Lachancea   5   2   Yes 1   1
+21  Lachancea   Lachancea quebecensis   Lachancea   Lachancea   5   2   Yes 0   0
+22  Lachancea   Lachancea thermotolerans    Lachancea   Lachancea   5   2   Yes 0   0
+23  Lachancea   Lachancea nothofagi Lachancea   Lachancea   5   2   Yes 0   0
+24  Lachancea   Lachancea dasiensis Lachancea   Lachancea   5   2   Yes 0   0
+25  Lachancea   Lachancea sp. yHQL494   Lachancea   Lachancea   5   2   Yes 0   0
+26  Lachancea   Lachancea meyersii  Lachancea   Lachancea   5   2   Yes 0   0
+27  Lachancea   Lachancea fantastica    Lachancea   Lachancea   5   2   Yes 0   0
+28  Lachancea   Lachancea lanzarotensis Lachancea   Lachancea   5   2   Yes 0   0
+29  Hagleromyces    Hagleromyces aurorensis KLE ZT  6   2   Yes 0   0
+30  Zygosaccharomyces   Zygosaccharomyces gambellarensis    ZygoSacch   ZygoSacch   6   3   Yes 0   0
+31  Zygosaccharomyces   Zygosaccharomyces rouxii    ZygoSacch   ZygoSacch   6   3   Yes 0   0
+32  Zygosaccharomyces   Zygosaccharomyces sapae ZygoSacch   ZygoSacch   6   3   Yes 0   0
+33  Zygosaccharomyces   Zygosaccharomyces pseudorouxii  ZygoSacch   ZygoSacch   6   3   Yes 0   0
+34  Zygosaccharomyces   Zygosaccharomyces mellis    ZygoSacch   ZygoSacch   6   3   Yes 0   0
+35  Zygosaccharomyces   Zygosaccharomyces siamensis ZygoSacch   ZygoSacch   6   3   Yes 0   0
+36  Zygosaccharomyces   Zygosaccharomyces kombuchaensis ZygoSacch   ZygoSacch   6   3   Yes 0   0
+37  Zygosaccharomyces   Zygosaccharomyces lentus    ZygoSacch   ZygoSacch   6   3   Yes 0   0
+38  Zygosaccharomyces   Zygosaccharomyces bisporus  ZygoSacch   ZygoSacch   6   3   Yes 0   0
+39  Zygosaccharomyces   Zygosaccharomyces pseudobailii  ZygoSacch   ZygoSacch   6   3   Yes 1   0
+40  Zygosaccharomyces   Zygosaccharomyces parabailii    ZygoSacch   ZygoSacch   6   3   Yes 2   0
+41  Zygosaccharomyces   Zygosaccharomyces bailii    ZygoSacch   ZygoSacch   6   3   Yes 0   0
+42  Zygotorulaspora Zygotorulaspora chibaensis  ZygoToru    ZT  5   2   Yes 0   0
+43  Zygotorulaspora Zygotorulaspora florentina  ZygoToru    ZT  5   2   Yes 0   0
+44  Zygotorulaspora Zygotorulaspora sp. yHDO592 ZygoToru    ZT  5   2   Yes 0   0
+45  Zygotorulaspora Zygotorulaspora danielsina  ZygoToru    ZT  5   2   Yes 0   0
+46  Zygotorulaspora Zygotorulaspora mrakii  ZygoToru    ZT  5   2   Yes 0   1
+47  Torulaspora Torulaspora microellipsoides    Toru    Toru    5   2   Yes 0   0
+48  Torulaspora Torulaspora quercuum    Toru    Toru    5   2   Yes 0   0
+49  Torulaspora Torulaspora globosa Toru    Toru    5   2   Yes 2   0
+50  Torulaspora Torulaspora indica  Toru    Toru    5   2   Yes 0   0
+51  Torulaspora Torulaspora maleeae Toru    Toru    5   2   Yes 1   0
+52  Torulaspora Torulaspora sp. yHMJ407 Toru    Toru    5   2   Yes 2   0
+53  Torulaspora Torulaspora delbrueckii Toru    Toru    5   2   Yes 0   0
+54  Torulaspora Torulaspora sp. 2017 38-3   Toru    Toru    5   2   Yes 0   0
+55  Torulaspora Torulaspora franciscae  Toru    Toru    5   2   Yes 1   0
+56  Torulaspora Torulaspora pretoriensis    Toru    Toru    5   2   Yes 1   0
+57  Torulaspora Torulaspora sp. 2017 36-1   Toru    Toru    5   2   Yes 0   0
+58  Henningerozyma  Henningerozyma blattae  Henningerozyma  ZT  6   2   Yes 1   0
+59  Yueomyces   Yueomyces sinensis  Yueomyces   NA  6   NA  No  NA  NA
+60  Yueomyces   Yueomyces silvicola Yueomyces   NA  6   NA  No  NA  NA
+61  Yueomyces   Yueomyces sp. yHKB289   Yueomyces   NA  6   NA  No  NA  NA
+62  Vanderwaltozyma Vanderwaltozyma yanomamii   Vanderwaltozyma Vanderwaltozyma 5   2   Yes 0   0
+63  Vanderwaltozyma Vanderwaltozyma polyspora   Vanderwaltozyma Vanderwaltozyma 5   2   Yes 0   0
+64  Vanderwaltozyma Vanderwaltozyma tropicalis  Vanderwaltozyma Vanderwaltozyma 5   2   Yes 0   2
+65  Vanderwaltozyma Vanderwaltozyma verrucispora    Vanderwaltozyma Vanderwaltozyma 5   2   Yes 2   1
+66  Vanderwaltozyma Vanderwaltozyma yarrowii    Vanderwaltozyma Vanderwaltozyma 5   2   Yes 1   3
+67  Tetrapisipora   Tetrapisispora iriomotensis Tetrapisispora  Tetrapisispora  5   2   Yes 1   1
+68  Tetrapisipora   Tetrapisispora phaffii  Tetrapisispora  Tetrapisispora  5   2   Yes 1   0
+69  Tetrapisipora   Tetrapisispora fleetii  Tetrapisispora  Tetrapisispora  5   2   Yes 2   0
+70  Tetrapisipora   Tetrapisispora namnaoensis  Tetrapisispora  Tetrapisispora  5   2   Yes 1   0
+71  Tetrapisipora   Tetrapisispora nanseiensis  Tetrapisispora  Tetrapisispora  5   2   Yes 1   1
+72  Tetrapisipora   Tetrapisispora arboricola   Tetrapisispora  Tetrapisispora  5   2   Yes 0   2
+73  Tetrapisipora   Tetrapisispora pingtungensis    Tetrapisispora  Tetrapisispora  5   2   Yes 1   2
+74  Tetrapisipora   Tetrapisispora taiwanensis  Tetrapisispora  Tetrapisispora  5   2   Yes 2   5
+75  Naumovozyma Naumovozyma dairenensis NA  NA  NA  NA  NA  NA  NA
+76  Naumovozyma Naumovozyma baii    NA  NA  NA  NA  NA  NA  NA
+77  Naumovozyma Naumovozyma castellii   NA  NA  NA  NA  NA  NA  NA
+78  Kazachstania    Kazachstania africana   Kafricana   Kafricana   6   2   Yes 0   0
+79  Kazachstania    Kazachstania viticola   Ka_Full ZT  6   2   Yes 0   0
+80  Jamesozyma  Jamesozyma lodderae Ka_Full Jamesozyma  6   2   Yes 0   0
+81  Jamesozyma  Jamesozyma jinghongensis    Ka_Full Jamesozyma  6   2   Yes 0   0
+82  Jamesozyma  Jamesozyma spencerorum  Ka_Full Jamesozyma  6   2   Yes 0   0
+83  Jamesozyma  Jamesozyma gamospora    Ka_Full Jamesozyma  6   2   Yes 0   0
+84  Jamesozyma  Jamesozyma hellenica    Ka_Full Jamesozyma  6   2   Yes 0   0
+85  Jamesozyma  Jamesozyma piceae   Ka_Full Jamesozyma  6   2   Yes 1   0
+86  Jamesozyma  Jamesozyma rosinii  Ka_Full Jamesozyma  6   2   Yes 1   0
+87  Kazachstania    Kazachstania psychrophila   Ka_Full ZT  6   2   Yes 0   0
+88  Kazachstania    Kazachstania kunashirensis  Ka_Full ZT  6   2   Yes 0   0
+89  Maudiozyma  Maudiozyma humilis  Ka_Full ZT  6   2   Yes 0   0
+90  Maudiozyma  Maudiozyma pseudohumilis    Ka_Full ZT  6   2   Yes 2   0
+91  Maudiozyma  Maudiozyma bulderi  Ka_Full ZT  6   2   Yes 0   0
+92  Maudiozyma  Maudiozyma exigua   Ka_Full ZT  6   2   Yes 0   0
+93  Maudiozyma  Maudiozyma turicensis   Ka_Full ZT  6   2   Yes 0   0
+94  Maudiozyma  Maudiozyma barnettii    Ka_Full ZT  6   2   Yes 0   0
+95  Maudiozyma  Maudiozyma saulgeensis  Ka_Full ZT  6   2   Yes 1   0
+96  Maudiozyma  Maudiozyma serrabonitensis  Ka_Full ZT  6   2   Yes 0   0
+97  Kazachstania    Kazachstania martiniae  Ka_Full ZT  6   2   Yes 1   0
+98  Sungouiozyma    Sungouiozyma ichnusensis    Ka_Full ZT  6   2   Yes 0   0
+99  Sungouiozyma    Sungouiozyma intestinalis   Ka_Full ZT  6   2   Yes 0   0
+100 Kazachstania    Kazachstania bromeliacearum Ka_Full ZT  6   2   Yes 0   0
+101 Huiozyma    Huiozyma naganishii Knagsin Knagsin 5   2   Yes 0   0
+102 Huiozyma    Huiozyma sinensis   Knagsin Knagsin 5   2   Yes 0   0
+103 Kazachstania    Kazachstania taianensis Ktai    ZT  7   2   Yes 0   0
+104 Grigorovia  Grigorovia jiainica Grig    Grig    6   2   Yes     
+105 Grigorovia  Grigorovia yakushimaensis   Grig    Grig    5   2   Yes 1   0
+106 Grigorovia  Grigorovia humatica Grig    Grig    5   2   Yes 4   1
+107 Grigorovia  Grigorovia transvaalensis   Grig    Grig    5   2   Yes 0   0
+108 Monosporozyma   Monosporozyma aquatica  Kaq-Ksol    ZT  6   2   Yes 1   12
+109 Monosporozyma   Monosporozyma siamensis Kaq-Ksol    ZT  6   2   Yes 2   6
+110 Monosporozyma   Monosporozyma unispora  Kaq-Ksol    ZT  6   2   Yes 2   2
+111 Monosporozyma   Monosporozyma yasuniensis   Kaq-Ksol    ZT  6   2   Yes 1   7
+112 Monosporozyma   Monosporozyma servazzii Kaq-Ksol    ZT  6   2   Yes 1   0
+113 Monosporozyma   Monosporozyma aerobia   Kaq-Ksol    ZT  6   2   Yes 1   1
+114 Monosporozyma   Monosporozyma solicola  Kaq-Ksol    ZT  6   2   Yes 0   4
+115 Arxiozyma   Arxiozyma slooffiae NA  NA  NA  NA  NA  NA  NA
+116 Arxiozyma   Arxiozyma bovina    Arxiozyma   Arxiozyma   6   3   Yes 2   5
+117 Arxiozyma   Arxiozyma telluris  Arxiozyma   Arxiozyma   6   3   Yes 3   7
+118 Arxiozyma   Arxiozyma heterogenica  Arxiozyma   Arxiozyma   6   3   Yes 1   1
+119 Arxiozyma   Arxiozyma pintolopesii  Arxiozyma   Arxiozyma   6   3   Yes 0   0
+120 Arxiozyma   Arxiozyma sp. Y4206 Arxiozyma   Arxiozyma   6   3   Yes 0   1
+121 Arxiozyma   Arxiozyma sp. VP_05 Arxiozyma   Arxiozyma   6   3   Yes 0   0
+122 Cylindricascospora  Cylindricascospora bacillispora ScSuCgVp    ZT  6   2   Yes 0   0
+123 Oligophagozyma  Oligophagozyma castellii    ScSuCgVp    ZT  5   2   Yes 0   1
+124 Nakaseomyces    Nakaseomyces glabratus  Nakaseomyces    ZT  6   2   Yes 0   0
+125 Nakaseomyces    Nakaseomyces uthaithaninus  Nakaseomyces    ZT  6   2   Yes 0   0
+126 Nakaseomyces    Nakaseomyces bracarensis    Nakaseomyces    ZT  6   2   Yes 0   0
+127 Nakaseomyces    Nakaseomyces delphensis Nakaseomyces    ZT  6   2   Yes 0   0
+128 Nakaseomyces    Nakaseomyces sp. yHDO568    Nakaseomyces    ZT  6   2   Yes 0   2
+129 Nakaseomyces    Nakaseomyces kungkrabaensis Nakaseomyces    ZT  6   2   Yes 0   0
+130 Nakaseomyces    Nakaseomyces nivariensis    Nakaseomyces    ZT  6   2   Yes 0   0
+131 Saccharomyces   Saccharomyces eubayanus Saccharomyces   ZT  6   2   Yes 0   0
+132 Saccharomyces   Saccharomyces uvarum    Saccharomyces   ZT  6   2   Yes 0   0
+133 Saccharomyces   Saccharomyces arboricola    Saccharomyces   ZT  6   2   Yes 0   0
+134 Saccharomyces   Saccharomyces kudriavzevii  Saccharomyces   ZT  6   2   Yes 0   0
+135 Saccharomyces   Saccharomyces jurei Saccharomyces   ZT  6   2   Yes 0   0
+136 Saccharomyces   Saccharomyces mikatae   Saccharomyces   ZT  6   2   Yes 0   0
+137 Saccharomyces   Saccharomyces paradoxus Saccharomyces   ZT  6   2   Yes 0   0
+138 Saccharomyces   Saccharomyces cerevisiae    Saccharomyces   ZT  6   2   Yes 0   0
