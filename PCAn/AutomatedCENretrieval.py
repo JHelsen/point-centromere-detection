@@ -182,7 +182,7 @@ def FIMO2(Genome, CDEI, CDEIII, CDEIIIup, TH1, TH2):
                     sequence = str(seqRC.reverse_complement())          
                 Sequences.append(sequence)
         Lines.append(">"+ ID + "_" + str(index+1) + "\n" + sequence)
-        ListSeq.append([ID + "_" + str(index+1), sequence, QualityScoreI,POSITION1])
+        ListSeq.append([ID + "_" + str(index+1), sequence, QualityScoreI,POSITION1,strand])
     
     os.mkdir("CDEIII_search")
     
@@ -218,9 +218,13 @@ def FIMO2(Genome, CDEI, CDEIII, CDEIIIup, TH1, TH2):
                 QualityScoreI = Hit[2]
                 QualityScoreII = float(FMhit[5])
                 OverallQuality = round(QualityScoreI*QualityScoreII*1/(1-ATper/100), 0)
-                Start = Hit[3] - len(ShortSeq) + 1
-                End = Hit[3] + 1
-                newline = [Contig, ContigHit, Start, End, ShortSeq , str(ATlen) , str(ATper), str(QualityScoreI), str(QualityScoreII), str(OverallQuality)]
+                if Hit[4] == "+":
+                    NewStart = Hit[3] - len(ShortSeq) + 1
+                    NewEnd = Hit[3]
+                else:
+                    NewStart = Hit[3] + 1
+                    NewEnd = Hit[3] + len(ShortSeq)
+                newline = [Contig, ContigHit, NewStart, NewEnd, ShortSeq , str(ATlen) , str(ATper), str(QualityScoreI), str(QualityScoreII), str(OverallQuality)]
                 FullSeq.append(newline)
     
     ColumnNames = ['Contig', 'ContigHit', 'Start', 'End','Sequence','CDEIIlen','CDEIIAT','FIMOIscore','FIMOIIscore','OverallScore']
