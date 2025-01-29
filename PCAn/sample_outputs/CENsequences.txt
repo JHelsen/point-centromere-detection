@@ -1,0 +1,33 @@
+Contig	ContigHit	Start	End	Sequence	CDEIIlen	CDEIIAT	FIMOIscore	FIMOIIscore	OverallScore
+NC_001141.2	NC_001141.2_16	355629	355746	TTCAcgtgaaaatttttatatttttaattaaatttttataatattataaattattataatattgatatttaaaattaaaaacaaaTTATTAATGGTTTTGTTTTCCGAAATGTTTTTT	84	96.47	22.8684	11.2105	7262.0
+NC_001138.5	NC_001138.5_11	148510	148628	atcacgtgctataaaaataattataatttaaattttttaatataaatatataaattaaaaatagaaagtaaaaaaagaaattaaagaaaaaatagtttttgttttccgAAGATGTAAAA	85	94.19	28.2632	12.7763	6215.0
+NC_001142.9	NC_001142.9_4	436306	436425	ATCACGTGTTAAATAATTAATTTACtttaaaatttattttttaatataaaatatttattctttttatttaaaaataaaaaacacAAAAAAACAATGTTTATGATTTCCGAACCTAAATAT	86	93.1	32.25	12.7763	5972.0
+NC_001143.9	NC_001143.9_6	440128	440246	GTCACATGATAAAAAcatatttaaaattttaaaaaaattaattttcaaaataaatttattatatttttttaattacataatcataaaaataaatgttCATGATTTCCGAACGTATAAAA	85	94.19	30.3947	11.0526	5782.0
+NC_001144.5	NC_001144.5_7	150827	150947	ATCACGTgtaataaatattattaaaaagtttattaaaataaaataataatttaaattactatttttaaataagttttattttttaataacaCTATTGTATTTGTTATCCGAAcaataaaaa	87	93.18	30.3421	12.7763	5684.0
+NC_001146.8	NC_001146.8_9	628758	628876	GTCACGTGCagctttttaaaaatattttaaaacattttaaaaaatatacatttttttattatttttttatatattaatgTTAAAATTTATTTATGTATTTGTCTTCCGAAAAGTAAAAT	85	93.02	30.0263	12.8684	5536.0
+NC_001139.9	NC_001139.9_1	496919	497038	atcaCGTGTTATATTtactatataaaaattcaataaataaaaagttagaagataaaaattatattatacatatttttatttttattataatttttgtttttgccttccgaaaagaaaata	86	91.95	34.4342	12.7763	5465.0
+NC_001148.4	NC_001148.4_10	555957	556074	ATCACatgatatattttttatttttaattttttttaattataaaaataatttttttctttaaattaaacaaaaataaaaaattgttttttGTTGGTTAAGATTTCCgaaaatagaaat	84	94.12	28.6447	10.9605	5339.0
+NC_001134.8	NC_001134.8_2	238207	238324	ATCATGTGacttatttatttaattattattaagtaaaaaagattttctatttaaatttattaattaattttttttcttaaataattattttatgtttttgttttccgaaaaagaaaaa	84	92.94	33.9342	10.6447	5116.0
+NC_001133.9	NC_001133.9_15	151465	151583	GTCACATgacataataataaataattttaaaaatataaaatatttttaatagtttttaaatattttacagtttattttttaaatttatttatatgtttttgttttccgAAGCAGTCAAA	85	94.19	24.1974	11.0526	4603.0
+NC_001135.5	NC_001135.5_3	114385	114502	GTCACATGatgatatttgattttattatatttttaaaaaaagtaaaaaataaaaagtagtttatttttaaaaaataaaatttaaaatattagTGTATTTGATTTCCGaaagttaaaaa	84	91.76	33.8553	11.0526	4541.0
+NC_001137.3	NC_001137.3_5	151987	152105	ATCACGtgctttttaaaaaatataaatttaatttcattttctatttcaatatttattaaataaaaaatttgaaaaatatataaaaattgtaGCAGTATTAGATTtccgaaaagaaaaaa	85	90.7	31.4474	12.7763	4320.0
+NC_001136.10	NC_001136.10_13	449711	449822	GTCACATGCTTATaatcaacttttttaaaaatttaaaatacttttttattttttatttttaaacataaatgaaataatttatttattGTTTATGATTACCGAAACATAAAAC	78	92.41	25.8947	11.0526	3771.0
+NC_001147.6	NC_001147.6_8	326583	326702	atcaCGTGAACTTATTTTgcatttaaaaaaaagtaaaaactATTTGCtaaaatatatttttttaatttttaaaaataatgttTTAATTATTTAATGTATATGACTTCcgaaaaatatata	86	89.66	30.2237	12.7763	3734.0
+NC_001140.6	NC_001140.6_14	105585	105703	ATCACATGACtaataattcttttaattttaattaatttaataaaattaaaataatatatatactaaattgtttattaaaaatgattAAACATTGGGTTTTGTGTTCCGAACTTAGAAAA	85	90.7	25.0395	10.9605	2951.0
+NC_001145.3	NC_001145.3_12	268031	268150	ATCACATGACTACCTaacaaaatatttatttttcttttttaatatttgaaaatactaaaatatttttgttgttttttgaaaaaaggaTTTTTAATGTGTATGCGTTCCGAACTTTAAATA	86	85.06	27.9605	10.9605	2051.0
+
+****************
+
+PCAn v0.1
+29-01-2025 14:48:11
+
+16 potential centromeres were identified.
+
+Path to genome used: /g/dey/Jana_Helsen/PCAn/Saccharomyces_cerevisiae.fna
+Genus/species selected: Saccharomyces
+
+CDEI motif used: /g/dey/Jana_Helsen/PCAn/trial/CDEI/CDEI_ZT_MEME.txt
+FIMO significance threshold for the CDEI motif search: 1E-2
+
+CDEIII motif used: /g/dey/Jana_Helsen/PCAn/trial/CDEIII/CDEIII_Saccharomyces_MEME.txt
+FIMO significance threshold for the CDEIII motif search: 1E-6
