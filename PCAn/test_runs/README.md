@@ -33,4 +33,4 @@ From the time we finished providing all the inputs, it took ~121 seconds to comp
 
 
 ### Sample outputs
-The results of the PCAn run for the _S. cerevisiae_ genome are available in "sample_outputs". The BLAST folder is zipped to enable upload to the GitHub repository; it is normally a folder. More information on how to interpret the the PCAn outputs can be found [here](https://github.com/JHelsen/point-centromere-detection/tree/main/PCAn)
+The results of the PCAn run for the _S. cerevisiae_ genome are available in "sample_outputs". The BLAST folder is zipped to enable upload to the GitHub repository; it is normally a folder. More information on how to interpret the the PCAn outputs can be found [here](https://github.com/JHelsen/point-centromere-detection/tree/main/PCAn#pcan-outputs)
