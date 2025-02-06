@@ -7,6 +7,10 @@ This tool works in the following systems
 
 <img src="https://github.com/primefaces/primeicons/blob/master/raw-svg/apple.svg" width="50" height="50"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1280px-Tux.svg.png" width="40" height="40">
 
+The tool was tested on the following versions
+1. M1 MacBook from 2020 with MacOS Ventura 13.3.1
+2. Red Hat 8.5.0-22 Linux version 4.18.0-553.22.1.el8_10.x86_64 system
+
 Miniconda was used as the environment and package manager for this protject. To set up Miniconda, please refer to the [documentation](https://docs.anaconda.com/miniconda/index.html)
   
   1. Download the PCAn.zip file using this [link](https://github.com/JHelsen/point-centromere-detection/blob/main/PCAn/PCAn.zip).
