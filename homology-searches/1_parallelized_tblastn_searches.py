@@ -50,9 +50,6 @@ unique_dbs = list(dict.fromkeys([x[:x.rfind(".")] for x in os.listdir(path2blast
 list_of_blast_dbs = {x : os.path.join(path2blastdbs, x) for x in unique_dbs}
 del unique_dbs
 
-list_of_blast_dbs = os.listdir() 
-
-
 os.chdir(start_point)
 
 
