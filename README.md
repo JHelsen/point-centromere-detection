@@ -7,3 +7,9 @@ This repository contains the scripts used for building the tool PCAn and subsequ
 4. [cen-simulations](https://github.com/JHelsen/point-centromere-detection/tree/main/cen-evolution-simulations) - script used for the simulations described in the study (this can be run in the conda environment created during the PCAn installation)
    
 The files required to create the conda environment are included in each directory
+
+### Future plans
+PCAn is ready for use and can be installed and used by following the instructions in the PCAn folder. For other directories, we aim to improve the documentation.
+
+### Contact
+For any assistance for running either PCAn or any of the other scripts, please either raise an issue on this GitHub repo or contact either Jana Helsen (the owner of this repo) or [Kausthubh Ramachandran](https://github.com/kausthubhr/)
