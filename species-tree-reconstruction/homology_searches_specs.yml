@@ -1,0 +1,21 @@
+name: homology_searches
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.9.18
+  - biopython=1.81
+  - joblib=1.4.2
+  - pandas=2.1.1
+  - blast=2.5.0
+  - tqdm=4.66.5
+  - pip=23.3.1
+  - iqtree=2.2.0.3
+  - mafft=7.490
+  - trimal=1.4.1
+  - fasttree=2.1.11
+  - hmmer=3.3.2
+  - veryfasttree=3.1.0
+  - goalign=0.3.5
+  - pip:
+      - orffinder==1.8
