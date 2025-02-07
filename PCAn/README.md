@@ -13,7 +13,7 @@ The tool was tested on the following versions
 
 Miniconda was used as the environment and package manager for this protject. To set up Miniconda, please refer to the [documentation](https://docs.anaconda.com/miniconda/index.html)
   
-  1. Download the PCAn.zip file using this [link](https://github.com/JHelsen/point-centromere-detection/blob/main/PCAn/PCAn.zip).
+  1. Download the PCAn.zip file from this folder using this [link](https://github.com/JHelsen/point-centromere-detection/blob/main/PCAn/PCAn.zip).
   2. Navigate to the downloaded .zip file and extract all files into a separate folder
   3. Navigate to the extracted folder on your terminal and use the following command to create the environment
      ```bash
