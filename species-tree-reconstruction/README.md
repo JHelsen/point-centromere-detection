@@ -54,9 +54,13 @@ goalign concat *.phy > supermatrix_alignment.fasta
 
 The concatenated supermatrix alignment is used to build the species tree using IQ-TREE
 ```bash
-iqtree2 --seqtype AA -B 1000 -alrt 1000 --boot-trees --wbtl -m LG+G4 -mwopt --threads-max 24 -T AUTO -s supermatrix_alignment.fasta
+iqtree2 --seqtype AA -B 1000 -alrt 1000 --boot-trees --wbtl -m LG+G4 -mwopt --threads-max 24 -T AUTO -s <supermatrix_alignment.fasta>
 ```
 ## Dating the constructed species tree
-8. [8_random_subsampling_of_supermatrix_alignment_sites.py](https://github.com/JHelsen/point-centromere-detection/blob/main/species-tree-reconstruction/scripts/8_random_subsampling_of_supermatrix_alignment_sites.py) - To make the tree dating more tractable, the supermatrix alignment was randomly subsampled and 10000 sites were extracted.
+8. [8_random_subsampling_of_supermatrix_alignment_sites.py](https://github.com/JHelsen/point-centromere-detection/blob/main/species-tree-reconstruction/scripts/8_random_subsampling_of_supermatrix_alignment_sites.py) - To make the tree dating more tractable, the supermatrix alignment was randomly subsampled and 3 sets of 10000 sites were extracted.
 
-The subsampled alignment was used to build another tree using the same IQ-TREE as given above. The resulting tree was dated using MEGA as described in our study.
+Each subsampled alignment was used to build another species tree using IQ-TREE. The topology was fixed using the species tree obtained earlier.
+```bash
+iqtree2 --seqtype AA -B 1000 --boot-trees --wbtl -m LG+G4 --score-diff ALL --threads-max 32 -T AUTO -mwopt -s <subsample_1_sequence.fasta> -g <fixed_topology.tree> -pre <fixed_topology.tree>
+```
+The 3 resulting trees were dated using MEGA as described in our study.
