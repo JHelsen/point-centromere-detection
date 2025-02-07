@@ -24,7 +24,7 @@ Miniconda was used as the environment and package manager for this protject. To 
      conda activate pcan
      ``` 
 ### Average installation time
-The installation takes *under 5 minutes* on a system with a good (~100 Mbps) internet connection. The tool occupies 23.3 MB and the Anaconda environment occupies ~1.55 GB.
+The installation takes *under 5 minutes* on a system with a good (~100 Mbps) internet connection. The tool occupies 23.5 MB and the Anaconda environment occupies ~1.55 GB.
 
 ## Using PCAn
 The PCAn zip archive comes with all the files required to run PCAn. PCAn uses [MEME](https://meme-suite.org/meme/) motifs that have been calculated for each clade within the Saccharomycetaceae to identify and extract centromeres from a given genome assembly. If the user allows it, PCAn can also use a combination of BLAST and a [Python version of NCBI ORFFinder](https://github.com/Chokyotager/ORFFinder) to identify genes flanking the identified centromere, and perform a synteny check against the ancestral gene order (calculated and reported in earlier publications [1](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000485)) to further confirm the veracity of the extracted centromeres. 
