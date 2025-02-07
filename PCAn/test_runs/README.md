@@ -1,6 +1,6 @@
 ### Running PCAn on the test dataset
 
-For testing PCAn, we provide _S. cerevisiae_ genome. After installing PCAn, please navigate to the test_runs directory to run this test.
+For testing PCAn, we provide the _S. cerevisiae_ genome. After installing PCAn, please navigate to the test_runs directory to run this test.
 
 1. Install PCAn as described [here](https://github.com/JHelsen/point-centromere-detection/tree/main/PCAn#readme)
 2. Activate the conda PCAn environment and invoke PCAn
