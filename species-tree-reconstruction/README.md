@@ -21,8 +21,8 @@ Prior to using the marker sequences, we used the scripts in "scripts/marker-sele
 2. redundantly mapped with another marker to the same _S. cerevisiae_ protein - 13 markers
 
 The scripts were used in the following order. The relevant documentation for each script can be found in the comments within the script itself:
-1. phmmer_run.py - to use phmmer to map each marker sequence back to a protein in _S. cerevisiae_
-2. phmmer_extract_top_hit.py - to extract the top hit from each phmmer search, and identify markers which mapped back to the same protein
+1. [phmmer_run.py](https://github.com/JHelsen/point-centromere-detection/blob/main/species-tree-reconstruction/scripts/marker-selection/phmmer_run.py) - to use phmmer to map each marker sequence back to a protein in _S. cerevisiae_
+2. [phmmer_extract_top_hit.py](https://github.com/JHelsen/point-centromere-detection/blob/main/species-tree-reconstruction/scripts/marker-selection/phmmer_extract_top_hit.py) - to extract the top hit from each phmmer search, and identify markers which mapped back to the same protein
 
 ## Retrieving homologs for the selected markers
 Prior to this step, all genomes were organized into a single folder. BLAST databases for these genomes were built using 
@@ -36,6 +36,8 @@ The relevant documentation for each script can be found in the comments within t
 2. [2_tblastn_results_analysis_orf_extraction.py](https://github.com/JHelsen/point-centromere-detection/blob/main/species-tree-reconstruction/scripts/2_tblastn_results_analysis_orf_extraction.py) - to analyse the tBLASTn search results, reject all hits whose E-value is lower than the threshold of 1E-10, extract scaffolds, run ORFFinder, and write out the predicted ORFs
 3. [3_reverse_blastp_against_cerevisiae.py](https://github.com/JHelsen/point-centromere-detection/blob/main/species-tree-reconstruction/scripts/3_reverse_blastp_against_cerevisiae.py) - to perform BLASTp of each selected ORF against the _S. cerevisiae_ proteome
 4. [4_reverse_blast_analysis_for_species_tree.py](https://github.com/JHelsen/point-centromere-detection/blob/main/species-tree-reconstruction/scripts/4_reverse_blast_analysis_for_species_tree.py) - to analyse the BLASTp results, select those ORFs which correctly mapped back to the corresponding protein in the _S. cerevisiae_ proteome, and write those ORFs out separately
+
+At this stage, we further removed 7 markers which did not have reciprocally verified homologs in >50% of the selected species. We proceeded with 1270 marker proteins.
 
 ## Aligning the marker homolog datasets, building gene trees, and removing outliers
 At this stage, you will have a folder created whose name ends with "_seqs_for_tree_building". This folder will contain subfolders, one for each input marker sequence. Each folder will contain a single FASTA file containing all the identified homologs for that marker.
