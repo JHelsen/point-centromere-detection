@@ -27,10 +27,14 @@ Miniconda was used as the environment and package manager for this protject. To 
 The installation takes *under 5 minutes* on a system with a good (~100 Mbps) internet connection. The tool occupies 23.5 MB and the Anaconda environment occupies ~1.55 GB.
 
 ## Running PCAn_mucor
+The files needed to run PCAn_mucor can be downloaded [here](https://github.com/JHelsen/point-centromere-detection/blob/main/PCAn_mucor/PCAn_mucor.zip)
+
 After activating the pcan environment, PCAn_mucor can be run from the command line using the following command
 ```bash
 python <path/to/>AutomatedCENretrieval_Mucor.py
 ```
+PCAn_mucor uses [MEME](https://meme-suite.org/meme/) motifs that have been calculated for different clades within Mucoromycota to identify and extract centromeres from a given genome assembly. 
+
 PCAn_mucor requires the following user inputs 
   1. The path to the genome assembly
   2. Selection of the motif that is phylogenetically closest to the input genome assembly
