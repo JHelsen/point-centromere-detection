@@ -36,7 +36,7 @@ warnings.filterwarnings('ignore', module='Bio')
 ####################
 # BASIC PARAMETERS #
 ####################
-PCAn_version = 0.1
+PCAn_version = 1.0
 print(f"\n\nWelcome to PCAn v{PCAn_version}, a tool to detect point centromeres in any genome assembly.")
 
 #Input path to genome assembly file here
