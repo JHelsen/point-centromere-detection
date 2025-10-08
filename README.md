@@ -1,4 +1,5 @@
-# PCAn - Point Centromere Annotation
+# PCAn - Point Centromere Annotation 
+[![DOI](https://zenodo.org/badge/1072091459.svg)](https://doi.org/10.5281/zenodo.17293586)
 
 This repository contains the scripts used for building the tool PCAn and subsequent phylogenetic analyses (profiling of kinetochore proteins, species tree reconstruction and dating) described in [Helsen et al. 2025](https://www.biorxiv.org/content/10.1101/2025.01.16.633479v1). This repository is divided into
 1. [PCAn](https://github.com/JHelsen/point-centromere-detection/tree/main/PCAn) - how to install and use the tool with an example included
