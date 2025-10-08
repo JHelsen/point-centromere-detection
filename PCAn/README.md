@@ -1,4 +1,4 @@
-# PCAn v0.1
+# PCAn v1.0
 
 Point Centromere Annoation (PCAn) v0.1 is a tool used to identify and annotate point centromeres from the Saccharomycetaceae clade. It is designed in Python to work on genome assemblies at any level of completeness (contig, scaffold, chromosome, or complete).
 
