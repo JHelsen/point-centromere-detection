@@ -42,18 +42,6 @@ Motifup = 0 #default 750
 # How many bp downstream of CDEI to extract
 Motifdn = 750 #default 750
 
-#######################################
-# TO FIND SPECIFIC SEQUENCES IN ENTRY #
-#######################################
-
-for seq in SeqIO.parse(Genome,"fasta"):
-      if seq.id == 'JAAECE010000011.1': #Mucor lusitanicus assembly GCA_010203745.1
-          Newstart = 885131 # subtract one
-          Newend = 885978 
-          seqRC = seq.seq[Newstart:Newend]
-          sequence = str(seqRC)
-          print(sequence)
-
 #####################################################
 # CANDIDATE CEN EXTRACTION: FIMO, DEFINING FUNCTION #
 #####################################################
