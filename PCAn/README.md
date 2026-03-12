@@ -31,7 +31,7 @@ The PCAn zip archive comes with all the files required to run PCAn. PCAn uses [M
 
 PCAn requires the following user inputs 
   1. The path to the genome assembly
-  2. Selection of the motif that is phylogenetically closest to the input genome assembly
+  2. Selection of the genus that is phylogenetically closest to that of the input genome assembly
   3. Permission to perform the synteny check using BLAST ("Yes" or "No") - this adds to the computing time
 
 ## PCAn outputs
@@ -51,7 +51,7 @@ Motifs and thresholds are optimized to ensure low false positive and negative ra
 
 ## Please cite
 
->J. Helsen, K. Ramachandran, G. Sherlock, G. Dey, Centromeres evolve progressively through selection at the kinetochore interface. bioRxiv [Preprint] (2025). https://doi.org/10.1101/2025.01.16.633479.
+>J. Helsen, K. Ramachandran, G. Sherlock, G. Dey, Centromeres evolve progressively through selection at the kinetochore interface. [Nature](https://doi.org/10.1038/s41586-025-09779-1) (2026)
 
 
 
